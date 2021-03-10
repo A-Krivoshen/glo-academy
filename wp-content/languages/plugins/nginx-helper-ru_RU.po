@@ -1,0 +1,568 @@
+# Translation of Plugins - Nginx Helper - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Nginx Helper - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-01 00:03:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Nginx Helper - Stable (latest release)\n"
+
+#: admin/class-purger.php:686
+msgid "Purging homepage (WPML) "
+msgstr "Очистка главной (WPML)"
+
+#: admin/class-purger.php:691
+msgid "Purging homepage "
+msgstr "Очистка главной"
+
+#: admin/class-purger.php:769 admin/class-purger.php:869
+msgid "Purging tag '%1$s' ( id %2$d )"
+msgstr "Очистка метки '%1$s' ( id %2$d )"
+
+#: admin/class-purger.php:841
+msgid "Purging category '%1$s' ( id %2$d )"
+msgstr "Очистка рубрики '%1$s' ( id %2$d )"
+
+#: admin/class-purger.php:964
+msgid "Purging post id '%1$d' ( post type '%2$s' )"
+msgstr "Очистка записи с id '%1$d' ( post type '%2$s' )"
+
+#: admin/class-purger.php:1023
+msgid "Purging daily archive '%1$s/%2$s/%3$s'"
+msgstr "Очистка архива за день '%1$s/%2$s/%3$s'"
+
+#: admin/class-purger.php:1074
+msgid "Purging monthly archive '%1$s/%2$s'"
+msgstr "Очистка архива за месяц '%1$s/%2$s'"
+
+#: admin/class-purger.php:1142
+msgid "Everything purged!"
+msgstr "Всё очищено!"
+
+#: admin/class-purger.php:1172
+msgid "Term taxonomy '%1$s' edited, (tt_id '%2$d', term_id '%3$d', taxonomy '%4$s')"
+msgstr "Таксономия '%1$s' изменена , (tt_id '%2$d', term_id '%3$d', taxonomy '%4$s')"
+
+#: admin/class-purger.php:1176
+msgid "A term taxonomy has been deleted from taxonomy '%1$s', (tt_id '%2$d', term_id '%3$d')"
+msgstr "Таксономия удалена из таксономии  '%1$s', (tt_id '%2$d', term_id '%3$d')"
+
+#: admin/partials/nginx-helper-general-options.php:56
+msgid "Log file size must be a number."
+msgstr "Размер файла журнала должен быть числом."
+
+#: admin/partials/nginx-helper-general-options.php:122
+msgid "nginx Fastcgi cache"
+msgstr "nginx Fastcgi cache"
+
+#: admin/partials/nginx-helper-general-options.php:124
+msgid "External settings for nginx"
+msgstr "Внешние настойки для nginx"
+
+#: admin/partials/nginx-helper-general-options.php:125
+msgid "requires external settings for nginx"
+msgstr "требуются внешние настройки nginx"
+
+#: admin/partials/nginx-helper-general-options.php:165
+msgid "Using a GET request to"
+msgstr "Использование GET запроса к"
+
+#: admin/partials/nginx-helper-general-options.php:166
+msgid "(Default option)"
+msgstr "(по умолчанию)"
+
+#: admin/partials/nginx-helper-general-options.php:228
+#: admin/partials/nginx-helper-general-options.php:243
+#: admin/partials/nginx-helper-general-options.php:258
+msgid "Overridden by constant variables."
+msgstr "Переопределено значениями констант."
+
+#: admin/partials/nginx-helper-general-options.php:410
+msgid "when an post/page/custom post is modified or added"
+msgstr "когда запись,страница или пользовательский тип записи изменены или добавлены"
+
+#: admin/partials/nginx-helper-general-options.php:431
+msgid "when an existing post/page/custom post is trashed."
+msgstr "когда имеющаяся запись,страница или пользовательский тип записи удалены в корзину."
+
+#: admin/partials/nginx-helper-general-options.php:569
+msgid "Can't write on map file."
+msgstr "Невозможно записать в файл map."
+
+#: admin/partials/nginx-helper-general-options.php:591
+msgid "Nginx Map path to include in nginx settings"
+msgstr "Путь к nginx map для включения в настройки nginx"
+
+#: admin/partials/nginx-helper-general-options.php:592
+msgid "(recommended)"
+msgstr "(рекомендуется)"
+
+#: admin/partials/nginx-helper-general-options.php:605
+msgid "Or,"
+msgstr "или"
+
+#: admin/partials/nginx-helper-general-options.php:606
+msgid "Text to manually copy and paste in nginx settings"
+msgstr "Текст для использования в ручном редактировании настроек nginx"
+
+#: admin/partials/nginx-helper-general-options.php:607
+msgid "(if your network is small and new sites are not added frequently)"
+msgstr "(если ваша сеть маленькая и новые сайты добавляются редко)"
+
+#: admin/partials/nginx-helper-general-options.php:641
+msgid "Can't write on log file."
+msgstr "Невозможно записать в файл журнала."
+
+#: admin/partials/nginx-helper-sidebar-display.php:38
+msgid "Please use our"
+msgstr "Используйте наш"
+
+#: admin/partials/nginx-helper-sidebar-display.php:40
+msgid "free support forum"
+msgstr "форум поддержки (это бесплатно)"
+
+#. translators: %s is Minimum WP version.
+#: includes/class-nginx-helper.php:311
+msgid "Sorry, Nginx Helper requires WordPress %s or higher"
+msgstr "Извините, Nginx Helper требует WordPress %s или выше"
+
+#: admin/class-nginx-helper-admin.php:341
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/class-nginx-helper-admin.php:88
+msgid "General"
+msgstr "Основные"
+
+#: admin/partials/nginx-helper-general-options.php:692
+msgid "None"
+msgstr "Отсутствует"
+
+#: admin/partials/nginx-helper-general-options.php:66
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: admin/partials/nginx-helper-general-options.php:680
+msgid "Log"
+msgstr "Лог"
+
+#: admin/partials/nginx-helper-general-options.php:675
+msgid "View Log"
+msgstr "Посмотреть отчет"
+
+#: admin/class-nginx-helper-admin.php:92
+msgid "Support"
+msgstr "Поддержка"
+
+#: admin/partials/nginx-helper-support-options.php:18
+msgid "Support Forums"
+msgstr "Форумы поддержки"
+
+#: admin/partials/nginx-helper-sidebar-display.php:31
+msgid "Need Help?"
+msgstr "Нужна помощь?"
+
+#: admin/partials/nginx-helper-sidebar-display.php:85
+msgid "Click to toggle"
+msgstr "﻿Нажмите, чтобы переключить"
+
+#. Plugin Name of the plugin
+#: admin/class-nginx-helper-admin.php:177
+#: admin/class-nginx-helper-admin.php:178
+#: admin/class-nginx-helper-admin.php:188
+#: admin/class-nginx-helper-admin.php:189
+msgid "Nginx Helper"
+msgstr "Nginx Helper"
+
+#: admin/partials/nginx-helper-admin-display.php:21
+msgid "Nginx Settings"
+msgstr "Настройки Nginx Helper"
+
+#: admin/class-nginx-helper-admin.php:212
+msgid "Purge Cache"
+msgstr "Очистить кеш"
+
+#: includes/class-nginx-helper-activator.php:49
+msgid "Sorry, you need to be an administrator to use Nginx Helper"
+msgstr "Извините, требуются права Администратора."
+
+#: admin/partials/nginx-helper-general-options.php:93
+msgid "Purging Options"
+msgstr "Настройки очистки"
+
+#: admin/partials/nginx-helper-general-options.php:100
+msgid "Enable Purge"
+msgstr "Включить очистку"
+
+#: admin/partials/nginx-helper-general-options.php:110
+msgid "Caching Method"
+msgstr "Метод кеширования"
+
+#: admin/partials/nginx-helper-general-options.php:135
+msgid "Redis cache"
+msgstr "кеш Redis"
+
+#: admin/partials/nginx-helper-general-options.php:145
+msgid "Purge Method"
+msgstr "Метод очистки"
+
+#: admin/partials/nginx-helper-general-options.php:155
+#: admin/partials/nginx-helper-general-options.php:335
+msgid "when a post/page/custom post is published."
+msgstr "при публикации записи/страницы/итд"
+
+#: admin/partials/nginx-helper-general-options.php:216
+msgid "Redis Settings"
+msgstr "настройки Redis"
+
+#: admin/partials/nginx-helper-general-options.php:221
+msgid "Hostname"
+msgstr "Адрес хоста"
+
+#: admin/partials/nginx-helper-general-options.php:236
+msgid "Port"
+msgstr "Порт"
+
+#: admin/partials/nginx-helper-general-options.php:251
+msgid "Prefix"
+msgstr "Префикс"
+
+#: admin/partials/nginx-helper-general-options.php:271
+msgid "Purging Conditions"
+msgstr "Условия для очистки"
+
+#: admin/partials/nginx-helper-general-options.php:276
+msgid "Purge Homepage:"
+msgstr "Очистить главную страницу"
+
+#: admin/partials/nginx-helper-general-options.php:283
+msgid "when a post/page/custom post is modified or added."
+msgstr "при публикации или изменении записи/страницы/итд"
+
+#: admin/partials/nginx-helper-general-options.php:292
+#: admin/partials/nginx-helper-general-options.php:419
+msgid "when a <strong>post</strong> (or page/custom post) is <strong>modified</strong> or <strong>added</strong>."
+msgstr "при <strong>изменении</strong> или <strong>публикации</strong> <strong>записи</strong> (или страницы или пользовательской записи)"
+
+#: admin/partials/nginx-helper-general-options.php:304
+msgid "when an existing post/page/custom post is modified."
+msgstr "при изменении опубликованной записи/страницы/итд"
+
+#: admin/partials/nginx-helper-general-options.php:327
+msgid "Purge Post/Page/Custom Post Type:"
+msgstr "Очистка Записи/Страницы/Пользовательского типа записи:"
+
+#: admin/partials/nginx-helper-general-options.php:344
+msgid "when a <strong>post</strong> is <strong>published</strong>."
+msgstr "при <strong>публикации</strong> <strong>записи</strong>"
+
+#: admin/partials/nginx-helper-general-options.php:356
+#: admin/partials/nginx-helper-general-options.php:453
+msgid "when a comment is approved/published."
+msgstr "при одобрении/публикации комментария"
+
+#: admin/partials/nginx-helper-general-options.php:365
+#: admin/partials/nginx-helper-general-options.php:462
+msgid "when a <strong>comment</strong> is <strong>approved/published</strong>."
+msgstr "при <strong>одобрении/публикации</strong> <strong>комментария</strong>"
+
+#: admin/partials/nginx-helper-general-options.php:377
+#: admin/partials/nginx-helper-general-options.php:474
+msgid "when a comment is unapproved/deleted."
+msgstr "при отклонении/удалении комментария"
+
+#: admin/partials/nginx-helper-general-options.php:386
+#: admin/partials/nginx-helper-general-options.php:483
+msgid "when a <strong>comment</strong> is <strong>unapproved/deleted</strong>."
+msgstr "при <strong>отклонении/удалении</strong> <strong>комментария</strong>"
+
+#: admin/partials/nginx-helper-general-options.php:400
+msgid "Purge Archives:"
+msgstr "Очистка архивов:"
+
+#: admin/partials/nginx-helper-general-options.php:402
+msgid "(date, category, tag, author, custom taxonomies)"
+msgstr "(дата,рубрика,метка,автор,пользовательская таксономия)"
+
+#: admin/partials/nginx-helper-general-options.php:538
+msgid "Enable Logging"
+msgstr "Включить логи"
+
+#: admin/partials/nginx-helper-general-options.php:519
+msgid "Debug Options"
+msgstr "Возможности отладки"
+
+#: admin/partials/nginx-helper-general-options.php:529
+msgid "Enable Nginx Map."
+msgstr "Включить nginx map"
+
+#: admin/partials/nginx-helper-general-options.php:663
+msgid "Logs path"
+msgstr "Путь к логам"
+
+#: admin/partials/nginx-helper-general-options.php:687
+msgid "Log level"
+msgstr "Уровень логгирования"
+
+#: admin/partials/nginx-helper-general-options.php:693
+msgid "Info"
+msgstr "Info (информация)"
+
+#: admin/partials/nginx-helper-general-options.php:694
+msgid "Warning"
+msgstr "Warning (предупреждение)"
+
+#: admin/partials/nginx-helper-general-options.php:695
+msgid "Error"
+msgstr "Error (ошибка)"
+
+#: admin/partials/nginx-helper-general-options.php:546
+msgid "Enable Nginx Timestamp in HTML"
+msgstr "Включить отметку времени в HTML"
+
+#: admin/partials/nginx-helper-general-options.php:625
+msgid "Logging Options"
+msgstr "Опции логгирования"
+
+#: admin/partials/nginx-helper-sidebar-display.php:55
+msgid "Follow us on Twitter"
+msgstr "Подписаться на наш Твиттер"
+
+#: admin/partials/nginx-helper-sidebar-display.php:61
+msgid "Useful Links"
+msgstr "Полезные ссылки"
+
+#: admin/partials/nginx-helper-sidebar-display.php:87
+msgid "Loading..."
+msgstr "Загружается..."
+
+#: admin/partials/nginx-helper-support-options.php:27
+msgid "Free Support Forum"
+msgstr "Форум бесплатной поддержки"
+
+#: admin/partials/nginx-helper-support-options.php:28
+#: admin/partials/nginx-helper-support-options.php:38
+msgid "Link to forum"
+msgstr "Ссылка на форум"
+
+#: admin/partials/nginx-helper-support-options.php:34
+msgid "Premium Support"
+msgstr "Премиум поддержка"
+
+#: admin/partials/nginx-helper-support-options.php:24
+msgid "Free Support"
+msgstr "Бесплатная поддержка"
+
+#: admin/class-purger.php:861
+msgid "Purging all tags"
+msgstr "Очищение всех меток"
+
+#: admin/class-purger.php:833
+msgid "Purging all categories"
+msgstr "Очищение всех рубрик"
+
+#. Plugin URI of the plugin
+msgid "https://rtcamp.com/nginx-helper/"
+msgstr "https://rtcamp.com/nginx-helper/"
+
+#. Author of the plugin
+msgid "rtCamp"
+msgstr "rtCamp"
+
+#. Author URI of the plugin
+msgid "https://rtcamp.com"
+msgstr "https://rtcamp.com"
+
+#: class-nginx-helper-wp-cli-command.php:40
+msgid "Purged Everything!"
+msgstr "Всё очищено!"
+
+#: admin/partials/nginx-helper-general-options.php:560
+msgid "Nginx Map"
+msgstr "Nginx Map"
+
+#: admin/partials/nginx-helper-general-options.php:708
+msgid "Mb"
+msgstr "Мб"
+
+#: admin/partials/nginx-helper-general-options.php:702
+msgid "Max log file size"
+msgstr "Максимальный размер журнала"
+
+#: admin/partials/nginx-helper-general-options.php:725
+msgid "Save All Changes"
+msgstr "Сохранить все изменения"
+
+#: admin/partials/nginx-helper-sidebar-display.php:26
+msgid "Purge Entire Cache"
+msgstr "Очистить весь кеш"
+
+#: admin/partials/nginx-helper-sidebar-display.php:50
+msgid "Getting Social is Good"
+msgstr "Социализация - хорошо!"
+
+#: admin/partials/nginx-helper-sidebar-display.php:54
+msgid "Become a fan on Facebook"
+msgstr "Подписаться на наш Facebook"
+
+#: admin/partials/nginx-helper-sidebar-display.php:86
+msgid "Latest News"
+msgstr "Последние новости"
+
+#: admin/partials/nginx-helper-support-options.php:37
+msgid "Premium Support Forum"
+msgstr "Форум премиум поддержки"
+
+#: admin/class-nginx-helper-admin.php:740
+msgid "Purge initiated"
+msgstr "Очистка начата"
+
+#: admin/class-nginx-helper-admin.php:404
+msgid "No items"
+msgstr "Нет ничего"
+
+#: admin/class-purger.php:969
+msgid "No posts"
+msgstr "Нет записей"
+
+#: admin/class-purger.php:888
+msgid "Purging all custom taxonomies"
+msgstr "Очистка пользовательских таксономий"
+
+#: admin/partials/nginx-helper-general-options.php:195
+msgid "Delete local server cache files"
+msgstr "Удалить локальные файлы кеша на сервере"
+
+#: admin/partials/nginx-helper-general-options.php:496
+msgid "Custom Purge URL:"
+msgstr "Пользовательские URL для очистки:"
+
+#: admin/partials/nginx-helper-sidebar-display.php:66
+msgid "WordPress-Nginx Solutions"
+msgstr "Решения Wordpress-Nginx"
+
+#: admin/partials/nginx-helper-sidebar-display.php:69
+msgid "WordPress Theme Devleopment"
+msgstr "Разработка тем WordPress"
+
+#: admin/partials/nginx-helper-sidebar-display.php:72
+msgid "WordPress Plugin Development"
+msgstr "Разработка плагинов WordPress"
+
+#: admin/partials/nginx-helper-sidebar-display.php:75
+msgid "WordPress Consultancy"
+msgstr "Консультации по WordPress"
+
+#: admin/partials/nginx-helper-sidebar-display.php:78
+msgid "easyengine (ee)"
+msgstr "easyengine (ee)"
+
+#: admin/class-purger.php:949
+msgid "Purging all posts, pages and custom post types."
+msgstr "Очистка записей страниц и пользовательских типов записей."
+
+#: admin/class-purger.php:983
+msgid "Purging all date-based archives."
+msgstr "Очистка всех архивов по датам."
+
+#: admin/class-purger.php:1000
+msgid "Purging all daily archives."
+msgstr "Очистка всех архивов за день."
+
+#: admin/class-purger.php:1034
+msgid "No daily archives"
+msgstr "Нет архивов за день"
+
+#: admin/class-purger.php:1046
+msgid "Purging all monthly archives."
+msgstr "Очистка всех месячных архивов."
+
+#: admin/class-purger.php:1079
+msgid "No monthly archives"
+msgstr "Нет месячных архивов"
+
+#: admin/class-purger.php:1091
+msgid "Purging all yearly archives."
+msgstr "Очистка всех архивов за год."
+
+#. translators: %s: Year to purge cache.
+#: admin/class-purger.php:1119
+msgid "Purging yearly archive '%s'"
+msgstr "Очистка архива за год '%s'"
+
+#: admin/class-purger.php:1124
+msgid "No yearly archives"
+msgstr "Нет архивов за год"
+
+#: admin/class-purger.php:1136
+msgid "Let's purge everything!"
+msgstr "Давайте очистим всё!"
+
+#: admin/class-purger.php:1165
+msgid "Term taxonomy edited or deleted"
+msgstr "Таксономия изменена или удалена"
+
+#: admin/class-nginx-helper-admin.php:415
+msgid "Posted "
+msgstr "Опубликовано"
+
+#: admin/class-purger.php:710
+msgid "Purging personal urls"
+msgstr "Очистка персональных url"
+
+#: admin/class-purger.php:718
+msgid "No personal urls available"
+msgstr "Персональных url нет"
+
+#: admin/class-purger.php:734
+msgid "Purging category archives"
+msgstr "Очистка архивов рубрик"
+
+#. translators: %d: Category ID.
+#: admin/class-purger.php:743
+msgid "Purging category '%d'"
+msgstr "Очистка рубрики '%d'"
+
+#: admin/class-purger.php:761
+msgid "Purging tags archives"
+msgstr "Очистка архивов меток"
+
+#: admin/class-purger.php:788
+msgid "Purging post custom taxonomies related"
+msgstr "Очистка сходных пользовательских таксономий"
+
+#. translators: %s: Post taxonomy name.
+#. translators: %s: Taxonomy name.
+#: admin/class-purger.php:802 admin/class-purger.php:902
+msgid "Purging custom taxonomy '%s'"
+msgstr "Очистка пользовательской таксономии '%s'"
+
+#. translators: %s: Post taxonomy name.
+#. translators: %s: Taxonomy name.
+#: admin/class-purger.php:816 admin/class-purger.php:918
+msgid "Your built-in taxonomy '%s' has param '_builtin' set to false."
+msgstr "Ваша built-in таксономия '%s' имеет пареметр '_builtin' в значении false."
+
+#: admin/class-purger.php:820 admin/class-purger.php:922
+msgid "No custom taxonomies"
+msgstr "Нет пользовательских таксономий"
+
+#: admin/class-purger.php:847
+msgid "No categories archives"
+msgstr "Нет архивов рубрик"
+
+#: admin/class-purger.php:874
+msgid "No tags archives"
+msgstr "Нет архивов меток"
+
+#: admin/class-purger.php:1204
+msgid "Widget saved, moved or removed in a sidebar"
+msgstr "Виджет сохранен, перемещен или изменен на сайдбаре"
+
+#. Description of the plugin
+msgid "Cleans nginx's fastcgi/proxy cache or redis-cache whenever a post is edited/published. Also does few more things."
+msgstr "Очищает nginx fastcgi/proxy кеш или redis-cache при редактировании/публикации. Также делает кое что ещё."
