@@ -120,10 +120,10 @@ msgstr "Цвет фона"
 msgid "This theme requires WordPress 5.3 or newer. You are running version %s. Please upgrade."
 msgstr "Этой теме требуется WordPress 5.3 или более новый. У вас WordPress версии %s. Пожалуйста, обновите его."
 
-#. translators: %: Page number.
-#: image.php:46 template-parts/content/content-single.php:30
-#: template-parts/content/content-page.php:36
+#. translators: %: page number.
+#: image.php:46 template-parts/content/content-page.php:36
 #: template-parts/content/content.php:36
+#: template-parts/content/content-single.php:30
 msgid "Page %"
 msgstr "Страница %"
 
@@ -166,7 +166,7 @@ msgstr "XS"
 msgid "Leave a comment"
 msgstr "Добавить комментарий"
 
-#. translators: %s: Comment count number.
+#. translators: %s: comment count number.
 #: comments.php:40
 msgctxt "Comments title"
 msgid "%s comment"
@@ -211,6 +211,11 @@ msgstr "&#8220;Автопортрет&#8221; Берта Моризо"
 #: inc/block-patterns.php:84
 msgid "&#8220;Daffodils&#8221; by Berthe Morisot"
 msgstr "&#8220;Нарциссы&#8221; Берта Моризо"
+
+#: inc/starter-content.php:43 inc/block-patterns.php:72
+#: inc/block-patterns.php:107
+msgid "&#8220;Roses Tremieres&#8221; by Berthe Morisot"
+msgstr "&#8220;Мальвы&#8221; Берта Моризо"
 
 #: inc/template-functions.php:399
 msgctxt "Post password form"
@@ -287,6 +292,10 @@ msgstr "В Булонском лесу"
 msgid "Villa with Orange Trees, Nice"
 msgstr "Вилла с апельсиновыми деревьями, Ницца"
 
+#: inc/block-patterns.php:107
+msgid "Roses Tremieres"
+msgstr "Мальвы"
+
 #: inc/block-patterns.php:96
 msgid "&#8220;Villa with Orange Trees, Nice&#8221; by Berthe Morisot"
 msgstr "&#8220;Вилла с апельсиновыми деревьями, Ницца&#8221; Берта Моризо"
@@ -321,7 +330,7 @@ msgstr "Игра в песочнице"
 msgid "&#8220;Playing in the Sand&#8221; by Berthe Morisot"
 msgstr "&#8220;Игра в песочнице&#8221; Берта Моризо"
 
-#. translators: %s: Parent post.
+#. translators: %s: parent post.
 #: image.php:59
 msgid "Published in %s"
 msgstr "Опубликовано в: %s"
@@ -342,8 +351,14 @@ msgstr "Толстый"
 msgid "On Archive Pages, posts show:"
 msgstr "На страницах архивов страниц и записей показывать:"
 
-#. translators: %s: Author name.
-#: inc/template-tags.php:49 template-parts/post/author-bio.php:19
+#. translators: 1: Link to authors posts. 2: Author name.
+#: template-parts/post/author-bio.php:20
+msgid "View all of %2$s's posts."
+msgstr "Просмотреть все записи автора %2$s"
+
+#. translators: 1: Author name.
+#. translators: %s author name.
+#: template-parts/post/author-bio.php:15 inc/template-tags.php:49
 msgid "By %s"
 msgstr "Автор: %s"
 
@@ -355,6 +370,11 @@ msgstr "Похоже, нам не удалось найти то, что вы и
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
 
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/content-none.php:43
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
 #: single.php:40
 msgid "Previous post"
 msgstr "Предыдущая запись"
@@ -363,7 +383,7 @@ msgstr "Предыдущая запись"
 msgid "Next post"
 msgstr "Следующая запись"
 
-#. translators: %s: Parent post link.
+#. translators: %s: parent post link.
 #: single.php:25
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
 msgstr "<span class=\"meta-nav\">Опубликовано в</span><span class=\"post-title\">%s</span>"
@@ -377,7 +397,7 @@ msgstr "Искать"
 msgid "Search&hellip;"
 msgstr "Поиск&hellip;"
 
-#. translators: %d: The number of search results.
+#. translators: %d: the number of search results.
 #: search.php:33
 msgid "We found %d result for your search."
 msgid_plural "We found %d results for your search."
@@ -385,30 +405,30 @@ msgstr[0] "По вашим критериям найден %d результат
 msgstr[1] "По вашим критериям найдены %d результата."
 msgstr[2] "По вашим критериям найдено %d результатов."
 
-#. translators: %s: Search term.
+#. translators: %s: search term.
 #: template-parts/content/content-none.php:22 search.php:21
 msgid "Results for \"%s\""
 msgstr "Результаты для \"%s\""
 
-#. translators: %s: List of tags.
+#. translators: %s: list of tags.
 #: inc/template-tags.php:118 inc/template-tags.php:162
 msgid "Tagged %s"
 msgstr "Отмечено %s"
 
-#. translators: %s: List of categories.
+#. translators: %s: list of categories.
 #: inc/template-tags.php:108 inc/template-tags.php:152
 msgid "Categorized as %s"
 msgstr "В рубрике %s"
 
-#. translators: Used between list items, there is a space after the comma.
+#. translators: used between list items, there is a space after the comma.
 #: inc/template-tags.php:104 inc/template-tags.php:114
 #: inc/template-tags.php:148 inc/template-tags.php:158
 msgid ", "
 msgstr ", "
 
 #. translators: %s: Name of current post. Only visible to screen readers.
-#: inc/template-tags.php:92 inc/template-tags.php:135 image.php:68 image.php:93
-#: template-parts/content/content-page.php:48
+#: image.php:68 image.php:93 template-parts/content/content-page.php:48
+#: inc/template-tags.php:92 inc/template-tags.php:135
 msgid "Edit %s"
 msgstr "Изменить %s"
 
@@ -530,15 +550,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Полный размер"
 
-#. translators: %s: Publish date.
+#. translators: %s: publish date.
 #: inc/template-tags.php:29
 msgid "Published %s"
 msgstr "Опубликовано %s"
 
-#: comments.php:62 inc/template-tags.php:228 image.php:43
-#: template-parts/content/content-single.php:27
-#: template-parts/content/content-page.php:33
+#: image.php:43 template-parts/content/content-page.php:33
 #: template-parts/content/content.php:33
+#: template-parts/content/content-single.php:27 inc/template-tags.php:228
+#: comments.php:62
 msgid "Page"
 msgstr "Страница"
 
@@ -550,8 +570,8 @@ msgstr "Закрыть"
 msgid "Menu"
 msgstr "Меню"
 
-#: inc/starter-content.php:154 functions.php:76
-#: template-parts/header/site-nav.php:13
+#: functions.php:76 template-parts/header/site-nav.php:13
+#: inc/starter-content.php:154
 msgid "Primary menu"
 msgstr "Основное меню"
 
@@ -631,7 +651,7 @@ msgstr "Зелёный"
 msgid "Gray"
 msgstr "Серый"
 
-#: inc/block-styles.php:107 functions.php:223
+#: functions.php:223 inc/block-styles.php:107
 msgid "Dark gray"
 msgstr "Темно-серый"
 
@@ -672,7 +692,7 @@ msgstr "Очень маленький"
 msgid "Proudly powered by %s."
 msgstr "Сайт работает на %s."
 
-#: footer.php:24 inc/starter-content.php:165 functions.php:77
+#: functions.php:77 inc/starter-content.php:165 footer.php:24
 msgid "Secondary menu"
 msgstr "Дополнительное меню"
 
