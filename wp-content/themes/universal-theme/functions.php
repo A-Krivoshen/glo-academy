@@ -12,7 +12,7 @@ if ( ! function_exists( 'universal_theme_setup' ) ) :
         'width'       => 163,
         'flex-height' => true,
         'header-text' => 'Universal',
-        'unlink-homepage-logo' => false, // WP 5.5
+        'unfacebook-homepage-logo' => false, // WP 5.5
     ] );
     //Регистрация меню
     
@@ -182,6 +182,15 @@ function enqueue_universal_style() {
 
 add_action( 'wp_enqueue_scripts', 'enqueue_universal_style' );
 
+add_filter('widget_tag_cloud_args', 'edit_widget_tag_cloud_args');
+function edit_widget_tag_cloud_args ($args) {
+    $args['unit'] = 'px';
+    $args['smallest'] = '14';
+    $args['largest'] = '14';
+    $args['number'] = '13';
+    return $args;
+}
+
 ## отключаем создание миниатюр файлов для указанных размеров
 add_filter( 'intermediate_image_sizes', 'delete_intermediate_image_sizes' );
 function delete_intermediate_image_sizes( $sizes ){
@@ -198,5 +207,8 @@ if ( function_exists( 'add_image_size' ) ) {
 	add_image_size( 'homepage-thumb', 65, 65, true ); // Кадрирование изображения
     add_image_size( 'article-thumb', 336, 195, true ); // Кадрирование изображения
 }
+
+
+// social widget
 
 

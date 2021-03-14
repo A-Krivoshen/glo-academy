@@ -649,6 +649,7 @@ body {
   line-height: 25px;
   border: none;
   padding: 0;
+  color: white !important;
 }
 
 .widget-downloader .widget-link {
@@ -696,4 +697,24 @@ body {
 .widget-social .widget-title {
   text-align: center;
   border: none;
+}
+
+.widget .tagcloud {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 25px;
+  padding-bottom: 35px;
+}
+
+.widget .tag-cloud-link {
+  margin-right: 10px;
+  margin-bottom: 15px;
+  line-height: 20px;
+  color: #262D33;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: 1px solid #D9DADB;
+  border-radius: 5px;
 }

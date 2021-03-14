@@ -140,14 +140,12 @@
 <div class="main-grid">
 <ul class="article-grid">
     <?php
-            // Объявляем глобальную переменную
-          
-            global $post;
-          // формируем запрос в базу данных
+      // Объявляем глобальную переменную
+      global $post;
+      // формируем запрос в базу данных
       $query = new WP_Query( [
         // получаем 7 постов
         'posts_per_page' => 7,
-      
       ] );
 
         // Проверяем есть ли посты
@@ -159,8 +157,7 @@
           $query->the_post();
         // Увеличиваем счетчик постов
         $cnt++;
-        var_dump ($cnt);
-        switch ($cnt) {
+          switch ($cnt) {
           // Выводим первый пост
           case '1': ?> 
             <li class="article-grid-item article-grid-item-1">
@@ -172,7 +169,7 @@
             ?></span>
               <h4 class="article-grid-title"><?= mb_strimwidth(get_the_title(), 0, 50, '...') ?></h4>
               <p class="article-grid-excerpt">
-               <?php the_excerpt(  ) ?>
+               <?= get_the_excerpt(  ) ?>
               </p>
               <div class="article-grid-info">
               <div class="author">
@@ -228,7 +225,7 @@
             <a href="<?php the_permalink( )?>" class="article-grid-permalink">
               <img src="<?= get_the_post_thumbnail_url( ); ?>" alt="" class="article-thumb">
               <h4 class="article-grid-title"><?= mb_strimwidth(get_the_title(), 0, 50, '...') ?></h4>
-
+            </a>  
           </li>
             <?php
             break;
@@ -237,9 +234,10 @@
           default: ?>
           <li class="article-grid-item article-grid-item-default">
           <a href="<?php the_permalink( )?>" class="article-grid-permalink">
-          <h4 class="article-grid-title"><?= mb_strimwidth(get_the_title(), 0, 50, '...') ?></h4>
-          <p class="article-grid-excerpt"><?= get_the_excerpt(  ) ?></p>
-          <span class="article-data"><?php the_time('J F'); ?></span>
+          <h4 class="article-grid-title"><?= mb_strimwidth(get_the_title(), 0, 50, '...'); ?></h4>
+          <p class="article-grid-excerpt"><?= mb_strimwidth(get_the_excerpt(), 0, 86, '...') ?></p>
+          <span class="article-data"><?php the_time('j F'); ?></span>
+          </a>
           </li>
           <?php   
             break;
