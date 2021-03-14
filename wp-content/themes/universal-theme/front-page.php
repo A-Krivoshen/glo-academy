@@ -137,7 +137,8 @@
           ?>
       </ul>
       <!-- article list -->
-    <ul class="article-grid">
+<div class="main-grid">
+<ul class="article-grid">
     <?php
             // Объявляем глобальную переменную
           
@@ -158,7 +159,7 @@
           $query->the_post();
         // Увеличиваем счетчик постов
         $cnt++;
-        
+        var_dump ($cnt);
         switch ($cnt) {
           // Выводим первый пост
           case '1': ?> 
@@ -254,5 +255,10 @@
      wp_reset_postdata();  // Сбрасываем $post. Возвращаем оригинальные данные
       ?>
     </ul>
-   
+  <!--  articke grid -->
+  <!--  подключаем сайдбар -->
+  
+  <?php get_sidebar( 'home' ) ?>
+</div>
+
 </div>
