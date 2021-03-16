@@ -14,4 +14,5 @@ if ( ! is_active_sidebar( 'main-sidebar' ) ) {
 
 <aside id="secondary" class="sidebar-front-page">
 	<?php dynamic_sidebar( 'main-sidebar' ); ?>
+	<?php dynamic_sidebar( 'onemore-sidebar' ); ?>
 </aside><!-- #secondary -->

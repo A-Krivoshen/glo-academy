@@ -257,6 +257,7 @@ class Social_widget extends WP_Widget {
 		// Вывод виджета
 		
 		echo '<center><p class="widget-title">Наши соцсети</p></center>';
+		echo '<center><div>';
 
 		// // if ( $title ) {
 		//   echo $before_title . $title . $after_title;
@@ -265,26 +266,26 @@ class Social_widget extends WP_Widget {
 
 		
 		if ( ! empty( $facebook ) ) {
-			echo '<a target="_blank" class="widget-link" href="'.$facebook.'">
-            <img class="" src="' . get_template_directory_uri ( ).'/assets/images/facebook.svg"></a>';
+			echo '<a target="_blank" class="widget-social" href="'.$facebook.'">
+            <img class="widget-svg" src="' . get_template_directory_uri ( ).'/assets/images/facebook.svg"></a>';
 		}
 
 		
 		if ( ! empty( $youtube ) ) {
-			echo '<a target="_blank" class="widget-link" href="'.$youtube.'">
-            <img class="" src="' . get_template_directory_uri ( ).'/assets/images/youtube.svg"></a>';
+			echo '<a target="_blank" class="widget-social" href="'.$youtube.'">
+            <img class="widget-svg" src="' . get_template_directory_uri ( ).'/assets/images/youtube.svg"></a>';
 		}
 		
 		
 		if ( ! empty( $twitter ) ) {
-			echo '<a target="_blank" class="widget-link" href="'.$twitter.'">
-            <img class="" src="' . get_template_directory_uri ( ).'/assets/images/twitter.svg"></a>';
+			echo '<a target="_blank" class="widget-social" href="'.$twitter.'">
+            <img class="widget-svg" src="' . get_template_directory_uri ( ).'/assets/images/twitter.svg"></a>';
 		}
 
 		
 		if ( ! empty( $wordpress ) ) {
-			echo '<a target="_blank" class="widget-link" href="'.$wordpress.' ">
-            <img class="" src="' . get_template_directory_uri ( ).'/assets/images/wordpress.svg"></a>';
+			echo '<a target="_blank" class="widget-social" href="'.$wordpress.' ">
+            <img class="widget-svg" src="' . get_template_directory_uri ( ).'/assets/images/wordpress.svg"></a>';
 		}
 				
 		echo '</div>';
@@ -396,3 +397,13 @@ function register_social_widget() {
 }
 add_action( 'widgets_init', 'register_social_widget' );
 
+function register_my_widgets(){
+	register_sidebar( array(
+		'name' => "Еще один сайдбар",
+		'id' => 'onemore-sidebar',
+		'description' => 'Еще один сайдбар',
+		'before_title' => '<h2>',
+		'after_title' => '</h2>'
+	) );
+}
+add_action( 'widgets_init', 'register_my_widgets' );
